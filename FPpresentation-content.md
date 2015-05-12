@@ -19,8 +19,8 @@ class: center, middle
 ---
 # Introduction
 
-Haskell /ˈhæskəl/ is a
-- standardized,
+Haskell /ˈhæskəl/ is
+- a standardized,
 - general-purpose purely functional programming language, with
 - non-strict semantics and
 - strong static typing.
