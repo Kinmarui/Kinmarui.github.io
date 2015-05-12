@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      table {
+        border-collapse: collapse;
+        empty-cells: hide;
+
+      }
+      th, td {
+          padding: 5px;
+          border: 1px solid black;
+      }
+      .expresionResultTable th:nth-of-type(1) {
+          width: 250px;
+      }
+      .expresionResultTable th:nth-of-type(2) {
+          width: 250px;
+      }
+
+      blockquote {
+        background: #eaeaea;
+        border: 3px dashed #ddd;
+        border-left: 10px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+      }
+      blockquote p:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+      }
+
+      blockquote p:after {
+        color: #ccc;
+        content: close-quote;
+        font-size: 4em;
+        line-height: 0.01em;
+        margin-left: 0.25em;
+        vertical-align: -0.5em;
+      }
+      blockquote p {
+        display: inline;
+      }
+      blockquote blockquote {
+      border: 0px;
+      margin: 0px;
+      padding: 0px;
+      text-align: right
+      }
+      blockquote blockquote p:before {
+        all:initial
+      }
+      blockquote blockquote p:after {
+        all:initial
+      }
+
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+<!--    <textarea id="source">
+
+
+
+    </textarea>-->
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({sourceUrl: './FPpresentation-content.md'});
+    </script>
+  </body>
+</html>
